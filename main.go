@@ -11,7 +11,7 @@ import (
 func main()  {
 	fileName := flag.String("file", "", "path to genesis.json")
 	// filter
-	address := flag.String("address", "", "your address for filtering")
+	address := flag.String("address", "", "address for filtering")
 	flag.Parse()
 
 	if *fileName == "" {
